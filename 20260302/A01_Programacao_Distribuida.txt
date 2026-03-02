@@ -1,0 +1,27 @@
+
+"Programação Distribuida"
+
+	A programação distribuída envolve criar algoritmos e software para múltiplos computadores independentes (nós) interconectados, que colaboram via rede para realizar uma tarefa comum como se fossem uma única máquina. Focada em escalabilidade e tolerância a falhas, ela divide cargas de trabalho, usando troca de mensagens para comunicação e coordenação
+
+gemini 
+20260302 1942
+----------------------------------------------------------------------------------------------------------------------
+
+Computação distribuída
+
+	Computação distribuída corresponde ao método de fazer vários computadores trabalharem juntos para resolver um problema comum. Isso faz com que uma rede de computadores pareça um único computador poderoso que fornece recursos em grande escala para lidar com desafios complexos.
+
+Por exemplo, a computação distribuída pode criptografar grandes volumes de dados, resolver equações físicas e químicas com muitas variáveis e renderizar animações de vídeo tridimensionais de alta qualidade. Sistemas distribuídos, programação distribuída e algoritmos distribuídos são alguns outros termos, todos eles se referindo à computação distribuída. 
+
+20260301 1943 
+https://aws.amazon.com/pt/what-is/distributed-computing/#:~:text=e%20redes%20blockchain.-,Como%20funciona%20a%20computa%C3%A7%C3%A3o%20distribu%C3%ADda?,dois%20tipos%20principais%20de%20acoplamentos.
+
+----------------------------------------------------------------------------------------------------------------------
+Programação distribuida e Computação distribuida sao a mesma coisa?
+
+	Não são exatamente a mesma coisa, embora estejam intimamente ligadas. A diferença principal é que uma foca no como fazer (programação) e a outra no sistema como um todo (computação).
+Computação Distribuída: É o campo da ciência da computação que estuda sistemas distribuídos — conjuntos de computadores independentes que trabalham juntos para atingir um objetivo comum, parecendo um único sistema para o usuário. Ela engloba a infraestrutura, redes, hardware e os modelos teóricos de como esses nós cooperam.
+Programação Distribuída: É o ato prático de escrever o código e os algoritmos para que o software funcione dentro desse modelo. Envolve o uso de ferramentas específicas (como RPC, Sockets ou Middleware como CORBA) para gerenciar a comunicação entre as partes do programa que rodam em máquinas diferentes. 
+
+gemini 
+20260302 1942
