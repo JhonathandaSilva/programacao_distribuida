@@ -1,0 +1,8 @@
+1- O que é Scrum?
+
+* O Scrum é uma estrutura Ágil que organiza o trabalho em sprints com tempo definido, bem como funções, artefatos e cerimônias estabelecidos para entrega iterativa.
+* As funções principais incluem proprietário do produto, Scrum Master e equipe de desenvolvimento, todos colaborando para alcançar as metas do sprint.
+* O Scrum enfatiza a transparência, a inspeção e a adaptação para que as equipes respondam a alterações e agreguem valor incremental.
+
+fonte: https://www.atlassian.com/br/agile/scrum
+---------------------------------------------------------------------------------------------------------------------
