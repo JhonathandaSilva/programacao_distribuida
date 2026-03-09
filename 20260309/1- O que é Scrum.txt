@@ -1,8 +1,26 @@
+Equipe: Everton/Gabriel/Jhonathan
+
 1- O que é Scrum?
 
 * O Scrum é uma estrutura Ágil que organiza o trabalho em sprints com tempo definido, bem como funções, artefatos e cerimônias estabelecidos para entrega iterativa.
 * As funções principais incluem proprietário do produto, Scrum Master e equipe de desenvolvimento, todos colaborando para alcançar as metas do sprint.
 * O Scrum enfatiza a transparência, a inspeção e a adaptação para que as equipes respondam a alterações e agreguem valor incremental.
 
+!* É um método ágil de desenvolvimento.
+
 fonte: https://www.atlassian.com/br/agile/scrum
+---------------------------------------------------------------------------------------------------------------------
+
+2 - Quais são os papéis do scrum?
+
+"Os três papéis principais no Scrum são: Product Owner (PO), Scrum Master e Desenvolvedores (Developers), que formam o Time Scrum. Eles trabalham de forma colaborativa e auto-organizada para entregar incrementos de valor a cada Sprint".
+
+* Product Owner (PO): O representante do cliente e dos interesses do negócio. É responsável por maximizar o valor do produto, gerenciar e priorizar o Product Backlog e definir a visão do produto.
+
+* Scrum Master: O facilitador e líder que serve ao time e à organização. Garante o entendimento e a aplicação correta do Scrum, além de remover bloqueios (impedimentos) que atrapalham o progresso.
+
+* Desenvolvedores (Developers): Membros da equipe que executam o trabalho técnico de construção do incremento do produto a cada Sprint. São auto-organizados, multifuncionais e responsáveis pela qualidade técnica e pela entrega.
+
+
+fonte:https://hnz.com.br/conheca-os-papeis-do-scrum/#:~:text=Os%20tr%C3%AAs%20pap%C3%A9is%20de%20Scrum&text=Existem%20apenas%203%20pap%C3%A9is%20no%20Scrum:%20O,a%20Equipe%20de%20desenvolvimento.%20Conhe%C3%A7a%2Dos%20a%20seguir!
 ---------------------------------------------------------------------------------------------------------------------
