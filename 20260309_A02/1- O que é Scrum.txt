@@ -6,7 +6,7 @@ Equipe: Everton/Gabriel/Jhonathan
 * As funções principais incluem proprietário do produto, Scrum Master e equipe de desenvolvimento, todos colaborando para alcançar as metas do sprint.
 * O Scrum enfatiza a transparência, a inspeção e a adaptação para que as equipes respondam a alterações e agreguem valor incremental.
 
-!* É um método ágil de desenvolvimento.
+!teacher: É um método ágil de desenvolvimento.
 
 fonte: https://www.atlassian.com/br/agile/scrum
 ---------------------------------------------------------------------------------------------------------------------
@@ -23,4 +23,11 @@ fonte: https://www.atlassian.com/br/agile/scrum
 
 
 fonte:https://hnz.com.br/conheca-os-papeis-do-scrum/#:~:text=Os%20tr%C3%AAs%20pap%C3%A9is%20de%20Scrum&text=Existem%20apenas%203%20pap%C3%A9is%20no%20Scrum:%20O,a%20Equipe%20de%20desenvolvimento.%20Conhe%C3%A7a%2Dos%20a%20seguir!
+---------------------------------------------------------------------------------------------------------------------
+
+3 - O que é uma sprint?
+
+Uma Sprint é um ciclo de trabalho curto e com tempo fixo (geralmente de 1 a 4 semanas) utilizado no framework Scrum para desenvolver incrementos de produtos de forma ágil. O objetivo é entregar valor continuamente, permitindo que a equipe planeje, execute, revise e melhore o trabalho em etapas curtas, aumentando a flexibilidade e a eficiência.
+
+fonte: https://artia.com/blog/sprint/
 ---------------------------------------------------------------------------------------------------------------------
