@@ -1,0 +1,25 @@
+Disponibilidade do Amazon S3
+
+O Amazon Web Services define SLA (Service Level Agreement) específico para o S3:
+
+SLA de disponibilidade: 99.9% (mensal)
+
+Isso significa:
+	Aproximadamente 43 minutos de indisponibilidade por mês (no pior cenário do SLA)
+	Na prática, o S3 costuma operar com disponibilidade maior que isso (frequentemente 	99.99%+)
+
+Como o S3 garante alta disponibilidade
+	1. Armazenamento redundante (Multi-AZ)
+		Os dados são automaticamente replicados em múltiplas Availability Zones (AZs) 		dentro de uma região
+		Mesmo que um datacenter falhe, os dados continuam acessíveis
+
+	2. Durabilidade extremamente alta
+		Durabilidade: 99.999999999% (11 noves)
+
+		Isso significa:
+			Chance extremamente baixa de perder dados
+			Ideal para backups, documentos críticos, logs, etc.
+
+	3. Arquitetura distribuída
+		O S3 não depende de um único servidor
+		Usa um modelo distribuído globalmente dentro da região

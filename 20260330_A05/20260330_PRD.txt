@@ -1,0 +1,15 @@
+1º O que é LGPD
+	A LGPD (Lei Geral de Proteção de Dados Pessoais) é a lei brasileira (Lei nº 13.709/2018) que regula como dados pessoais devem ser coletados, usados, armazenados e compartilhados por empresas e órgãos públicos.
+
+
+2º O que é SLA
+	SLA (Service Level Agreement), ou Acordo de Nível de Serviço, é um contrato (formal ou informal) que define quais níveis de qualidade um serviço deve atender, incluindo métricas como disponibilidade, tempo de resposta, suporte e resolução de problemas.
+Ele é muito usado em TI para alinhar expectativas entre quem fornece o serviço e quem utiliza.
+
+
+3º Exemplo de SLA
+	Como o SLA funciona no PIX:
+Disponibilidade: o sistema deve funcionar praticamente 24 horas por dia, com alta disponibilidade (ex: 99,9% ou mais)
+Tempo de processamento: uma transferência deve ser concluída em poucos segundos
+Tempo de resposta: as requisições entre bancos devem ser rápidas, sem atrasos significativos
+Tratamento de falhas: caso ocorra erro, o sistema deve garantir que o dinheiro não seja perdido (ou a transação completa ou é cancelada)

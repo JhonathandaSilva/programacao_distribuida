@@ -1,0 +1,238 @@
+!Computar é maquina que possui uma entrada/processamento/saída
+
+Pilares da Programação Distribuida
+	* Rede de Comunicação
+
+--------------------------------------------------------------------------------------------
+1- O que é um "Protocolo de Computação"
+Em computação, um protocolo é um conjunto de regras e padrões que definem como dispositivos ou sistemas se comunicam entre si em uma rede.
+
+Ele estabelece como os dados devem ser estruturados, enviados, recebidos e interpretados, garantindo que diferentes computadores ou softwares consigam trocar informações corretamente.
+
+Ideia simples
+
+Pense em um protocolo como um idioma ou um conjunto de regras de conversa.
+Se duas pessoas falam idiomas diferentes e não seguem as mesmas regras, elas não conseguem se entender.
+Na rede acontece o mesmo: os dispositivos precisam seguir o mesmo protocolo.
+
+O que um protocolo define
+Normalmente um protocolo especifica:
+Formato dos dados (como a mensagem é estruturada)
+Ordem da comunicação (quem fala primeiro, quem responde)
+Tratamento de erros
+Controle de envio e recebimento
+Identificação dos dispositivos
+
+--------------------------------------------------------------------------------------------
+2- Quais são os protocolos utilizados para conetar na internet? Cite 3
+
+Para se conectar e comunicar pela internet, diversos protocolos de rede são utilizados. Três dos mais importantes são:
+
+*A. IP (Internet Protocol)
+
+O IP é responsável por identificar os dispositivos na rede e encaminhar os dados até o destino correto.
+
+Cada dispositivo conectado recebe um endereço IP (ex: 192.168.1.1).
+
+Ele funciona como um endereço de identificação, semelhante a um endereço de casa para entregar uma carta.
+
+*B. TCP (Transmission Control Protocol)
+
+O TCP garante que os dados sejam enviados de forma confiável entre dois dispositivos.
+
+Funções principais:
+
+Divide os dados em pacotes
+
+Garante que todos os pacotes cheguem corretamente
+
+Reorganiza os pacotes na ordem correta
+
+Ele trabalha em conjunto com o IP, formando o protocolo TCP/IP, que é a base da internet.
+
+*C. HTTP (HyperText Transfer Protocol)
+
+O HTTP é o protocolo usado para transferência de páginas web entre o navegador e o servidor.
+
+Exemplo:
+
+Quando você acessa um site como www.google.com, o navegador envia uma requisição HTTP ao servidor.
+
+O servidor responde enviando o conteúdo da página.
+
+Hoje em dia, a maioria dos sites utiliza também o HTTPS, que é a versão segura e criptografada do HTTP.
+
+Resumo
+
+Três protocolos usados na internet são:
+
+IP – identifica os dispositivos na rede.
+
+TCP – garante a entrega correta dos dados.
+
+HTTP – permite a comunicação entre navegador e servidor web.
+--------------------------------------------------------------------------------------------
+
+
+O que é um Sistema Distribuido?
+Conjunto de hardware, software, serviços que se comunicam.
+
+--------------------------------------------------------------------------------------------
+
+O que é IMAP, SMTP e POP e como cada um funciona?
+
+
+IMAP, SMTP e POP são protocolos de comunicação usados em sistemas de e-mail. Cada um tem uma função específica no processo de envio e recebimento de mensagens.
+
+1. SMTP (Simple Mail Transfer Protocol)
+
+O SMTP é o protocolo responsável por enviar e-mails.
+
+Como funciona
+
+O usuário escreve um e-mail em um cliente de e-mail (Gmail, Outlook, Thunderbird, etc.).
+
+O cliente se conecta a um servidor SMTP.
+
+O servidor SMTP envia a mensagem para o servidor de e-mail do destinatário.
+
+O servidor do destinatário armazena o e-mail até que ele seja recuperado.
+
+Exemplo de uso
+
+Quando você clica em “Enviar”, o protocolo SMTP entra em ação.
+
+Porta padrão
+
+25 – comunicação tradicional entre servidores
+
+587 – envio autenticado (mais comum atualmente)
+
+465 – SMTP seguro (SSL)
+
+2. POP (POP3 – Post Office Protocol)
+
+O POP3 é um protocolo utilizado para baixar e-mails do servidor para o computador do usuário.
+
+Como funciona
+
+O cliente de e-mail conecta ao servidor POP.
+
+Os e-mails são baixados para o dispositivo.
+
+Normalmente, eles são removidos do servidor após o download.
+
+Características
+
+Os e-mails ficam armazenados localmente.
+
+Não sincroniza múltiplos dispositivos.
+
+É mais simples e antigo.
+
+Exemplo
+
+Se você baixar os e-mails no computador do trabalho, eles podem não aparecer no celular.
+
+Porta padrão
+
+110 – padrão
+
+995 – POP3 seguro (SSL)
+
+3. IMAP (Internet Message Access Protocol)
+
+O IMAP é um protocolo que permite acessar e sincronizar e-mails diretamente no servidor.
+
+Como funciona
+
+O cliente de e-mail conecta ao servidor IMAP.
+
+As mensagens permanecem no servidor.
+
+O cliente apenas sincroniza e exibe as mensagens.
+
+Características
+
+Permite acessar o e-mail de vários dispositivos.
+
+Pastas e status (lido/não lido) ficam sincronizados.
+
+Muito usado em serviços modernos.
+
+Exemplo
+
+Se você ler um e-mail no celular, ele aparecerá como lido no computador também.
+
+Porta padrão
+
+143 – padrão
+
+993 – IMAP seguro (SSL)
+
+Comparação rápida
+Protocolo	Função	Onde o e-mail fica
+SMTP	Enviar e-mail	Servidor de envio
+POP3	Receber (download)	Dispositivo do usuário
+IMAP	Receber (sincronizar)	Servidor
+
+Resumo
+
+SMTP → envia e-mail
+
+POP3 → baixa e-mail para o computador
+
+IMAP → sincroniza e-mail com o servidor
+--------------------------------------------------------------------------------------------
+
+Exemplo de Sistema Distribuido e explicar por que acho que aquela aplicação é Distribuida?
+
+WhatsApp como aplicação distribuída
+
+O WhatsApp não roda em um único servidor. Ele é composto por vários servidores distribuídos pelo mundo, trabalhando juntos.
+
+Como ele funciona (visão simplificada)
+
+Você envia uma mensagem pelo celular.
+
+A mensagem vai para um servidor do WhatsApp mais próximo.
+
+Esse servidor pode:
+
+Entregar diretamente ao destinatário (se estiver online)
+
+Ou armazenar temporariamente e repassar depois
+
+Se o destinatário estiver em outro país, a mensagem pode passar por vários servidores distribuídos até chegar nele.
+
+ Por que ele é distribuído?
+1. Escalabilidade
+
+O WhatsApp tem bilhões de usuários.
+Um único servidor não suportaria essa carga.
+
+→ A solução: distribuir a carga entre vários servidores.
+
+2. Alta disponibilidade
+
+Se um servidor cair, outros continuam funcionando.
+
+→ Isso evita que o sistema inteiro fique fora do ar.
+
+3. Baixa latência (rapidez)
+
+Servidores espalhados pelo mundo reduzem a distância entre usuário e sistema.
+
+→ Resultado: mensagens chegam mais rápido.
+
+4. Tolerância a falhas
+
+Se um data center falhar, outro pode assumir.
+
+→ Sistema continua operando mesmo com problemas.
+
+5. Armazenamento distribuído
+
+Mensagens, mídias e backups são armazenados em vários locais.
+
+→ Melhor performance e segurança.
